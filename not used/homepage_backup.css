@@ -1,0 +1,255 @@
+/*STYLES THE BODY*/
+body {
+    background-color: antiquewhite;/*GIVES BACKGROUND COLOR TO PAGE*/
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    /*background-image: url("image3.jpg");*/
+}
+
+header {
+    background-color: cadetblue;
+    /*text-align: center*/
+    height: 150px;
+    /* background-image: url("eshu.jpg");*/
+    background-repeat: no-repeat;/*FOR BACKGROUND IMAGE NOT TO REPEAT*/
+    padding-top: 20px;
+}
+
+/*STYLES THE LOGO*/
+#logo {
+    border-radius: 50%; /*WITHOUT THIS LOGO IS IN A RECTANGULAR BOX*/
+    float: left; /* FLOATS IMAGE TO LEFT OF TEXT*/
+    height: 100px;
+    width: 110px;
+    padding-left: 15px;
+    margin-left: 40px;
+}
+/*STYLES ALL THE MAIN HEADINGS*/
+h1 {
+    /* line-height: 200%;*/
+    padding-top: 45px;/* DISTANCE OF TEXT FROM EDGE OF BLUE BOX*/
+    padding-left: 90px;
+    font-size: 2em;
+    /*text-shadow: 5px 5px lightgrey;*/
+    text-align: justify;
+}
+
+mainh1 {
+    text-shadow: 5px 5px lightgrey;
+}
+
+/*STYLES ALL THE 2ND LEVEL HEADINGS*/
+h2 {
+    /*border-style: groove;
+    border-width: medium;*/
+    background-color: lightblue; /*GIVES A COLORED BACKGROUND FOR THESE HEADINGS*/
+    border-spacing: inherit;
+    margin-right: 50px; /*DISTANCE FROM RIGHT BORDER OF PAGE*/
+    margin-left: 50px; /*DISTANCE FROM END OF NAV COLUMN*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 3px 3px grey;
+    color: whitesmoke;
+    
+}
+
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    width: 200px;
+    position: sticky; /*MAKES THE NAV LINKS STICK EVEN WHEN SCROLLING THE PAGE*/
+    top: 0;
+}
+
+/* UNVISITED LINK*/
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav ul {
+    padding-left: 0px;
+    list-style: none;
+    margin: 10px 0;
+    
+    
+}/*SPACES THE NAV LINKS*/
+  li{
+margin: 15px 0;
+}
+
+main {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 2em;
+    margin-left: 200px;
+    display: block;
+    background-color: darkslategrey;
+}
+
+main h2,
+p,
+ul,
+dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+/*.container2 {
+    position: relative;
+    font-family: Arial;
+}*/
+
+/*.text-block {
+    position: absolute;*/
+    /*bottom: 20px;
+  right: 20px;*/
+   /* background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+}*/
+
+/*STYLES THE SMALL IMAGES*/
+.img1 {
+    width: 140px;
+    height: 120px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+/*HOVER DOES NOT WORK*/
+img1:hover {
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+#career {
+    background-color: aliceblue;
+    padding-bottom: 20px;
+   margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 8px black;
+}
+
+#intro {
+    background-color: aliceblue;
+    padding-bottom: 20px;
+   margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 8px black;
+}
+
+
+/*OLD DESIGN*/
+/*.card {
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  background-color: lightskyblue;
+    margin-left: 80px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.container {
+  padding: 2px 16px;
+} */
+
+
+
+footer {
+    background-color: cadetblue;
+    font-size: .80em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: #221811;
+
+}
+
+#wrapper {
+    width: 80%; /*covers 80% of the page*/
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: #FEF6C2;*/
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 10px darkgrey;
+    background-color: lightsalmon; /*GIVES COLOR TO THE NAV*/
+}
+
+/*NO UNDERLINE FOR a*/
+a:link {
+    text-decoration: none;
+}
+
+
+/*img {
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+/*allows inclusion of the padding and border in an element's total width and height, I have done this for all elements*/
+* {
+    box-sizing: border-box;
+}
+ /*STYLES THE MAIN IMAGE*/
+#nature {
+    background-image: url("image4resized.jpg");
+    background-size: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+
+/* Creates three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    margin: 10px;
+    /*background-color: lightgray;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+/*#desktop {
+    display: inline;
+}
+
+#mobile {
+    display: none;
+}*/

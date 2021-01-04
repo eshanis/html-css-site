@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>What's Cooking?</title>
+    <meta charset="utf-8">
+
+    <!--exported the font awesome library for the search icon from content delivery network-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="finalstyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*#homepara {
+            line-height: 1.6;
+        }*/
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-style: double;
+            border-width: thick;
+            margin-left: 20px;
+            /*margin-top: 20px;*/
+            margin-right: 20px;
+            /* border-radius: 50%;*/
+            align-self: center;
+            /*float: left;*/
+        }
+
+        h4 {
+            margin: 0px;
+        }
+
+        #demoimage {
+            float: left;
+        }
+
+        #demotext {
+            float: left;
+        }
+    </style>
+</head>
+
+<body id="topofpage">
+    <div id="wrapper">
+        <header>
+            <img src="images/logo1.png" id="logo">
+            <h1 id="cook">What's Cooking?</h1>
+            <img src="images/email.png" style="width: 30px; height: 30px; float: right;border-style: none;">
+            <img src="images/fb.png" style="width: 30px; height: 30px; float: right;border-style: none;">
+
+            <h4 id="eat">Vegetarian Eats</h4>
+
+        </header>
+        <br>
+        <hr>
+        <div id="topnav">
+            <!--navigation at the top of the page-->
+            <a href="index.html">Home</a> &nbsp;&nbsp;
+            <a href="salads.html">Soups and Salads</a>&nbsp;&nbsp;
+            <a href="dinner.html">Dinner</a>&nbsp;&nbsp;
+            <a href="resources.html">Resources</a>&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>&nbsp;&nbsp;
+
+            <!-- adds the search box as part of the nav -->
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+        </div>
+        <hr>
+
+        <p id=head>Thai Red Curry Soup</p>
+        <!--placed above nav since it did not function well here -->
+        <!--header>
+            <img src="images/logo1.png" id="logo">
+            <h1 id="cook">What's Cooking?</h1>
+            <h4 id="eat">Vegetarian Eats</h4>
+        </header-->
+
+
+        <main>
+
+            <div>
+                <img id="demoimage" src="images/thaisoup.jpg" style="border-style: none;">
+                <div id="demotext">This is a fun, dairy-free spin on classic cauliflower soup that is loaded with vegetables and spices that are good for you.</div>
+
+            </div>
+            <br style="clear: both;"> 
+            <br>
+            
+            <div>
+            <div>
+                <img id="demoimage" src="images/thaisoup.jpg" style="border-style: none;">
+                <div id="demotext">A note on cauliflower. Even if you are not a big fan, you must try roasted cauliflower. Roasted cauliflower with a little bit of salt is, like, French fry good.</div>
+
+            </div>
+            <br style="clear: both;"> 
+            <br>
+            
+            <div>
+
+                <img id="demoimage" src="images/cauliflower_and_onions.jpg" style="border-style: none;">
+                <div id="demotext"> A note on cauliflower. Even if you are not a big fan, you must try roasted cauliflower. Roasted cauliflower with a little bit of salt is, like, French fry good.</div>
+
+            </div>
+            <br style="clear: both;"> 
+            <br>
+            
+            <div>
+
+                <img id="demoimage" src="images/thai_curry_soup.jpg" style="border-style: none;">
+                <div id="demotext">Creamy, vegan cauliflower soup made with coconut milk and spiced with Thai curry paste. This healthy, comforting soup recipe is perfect for chilly days.</div>
+
+            </div>
+            <br style="clear: both;"> 
+            <br>
+            
+            
+            
+
+            <div>
+                <p style="float: left ;">
+                    <img src="images/cauliflower_and_onions.jpg" style="border-style: none;">
+                    A note on cauliflower. Even if you are not a big fan, you must try roasted cauliflower. Roasted cauliflower with a little bit of salt is, like, French fry good.
+                </p>
+            </div>
+            <br style="clear: both;">
+           
+
+
+
+            <!--div class="row">
+                <div class="column"><a href="thaisoup.html"><img src="images/thaisoup.jpg">
+                    <div style="text-align: center">Thai Red Curry Soup</div></a>
+                </div>
+              
+            </div-->
+
+        </main>
+
+
+        <br>
+        <hr>
+        <footer class="footer">
+
+            <a href="#topofpage">Go to top of page</a><br><br>
+            What's Cooking?
+            <br>
+            www.whatscooking.com
+
+        </footer>
+        <hr>
+    </div>
+    <!--CLOSES WRAPPER-->
+</body></html>
